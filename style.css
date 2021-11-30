@@ -13,7 +13,7 @@
 
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-accent: #ce4747;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -136,7 +136,7 @@ header {
 }
 
 .logo {
-    max-width: 100px;
+    max-width: 200px;
 }
 
 .nav {
@@ -165,7 +165,7 @@ header {
 }
 
 .nav__link {
-    color: inherit;
+    color: var(--clr-accent);
     font-weight: var(--fw-bold);
     font-size: var(--fs-h2);
     text-decoration: none;
@@ -180,7 +180,7 @@ header {
     background: transparent;
     border: 0;
     cursor: pointer;
-    position: absolute;
+    position: fixed;
     right: 1em;
     top: 1em;
     z-index: 1000;
@@ -366,6 +366,11 @@ header {
     text-align: center;
 }
 
+.section__subtitle {
+    color: var(--clr-accent);
+    margin-bottom: 15px;
+}
+
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -374,6 +379,9 @@ header {
 .portfolio__item {
     background: var(--clr-accent);
     overflow: hidden;
+    max-width: auto;
+    height: 600px;
+
 }
 
 .portfolio__img {
@@ -397,7 +405,7 @@ header {
 
 .footer {
     background: #111;
-    color: var(--clr-accent);
+    color: var(--clr-light);
     text-align: center;
     padding: 2.5em 0;
 }
