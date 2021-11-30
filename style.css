@@ -135,10 +135,6 @@ header {
     padding: 1em;
 }
 
-.logo {
-    max-width: 200px;
-}
-
 .nav {
     position: fixed;
     background: var(--clr-dark);
@@ -338,7 +334,8 @@ header {
 
     }
     .section__title--about {
-       grid-area: title; 
+       grid-area: title;
+
     }
 
     .section__subtitle--about {
@@ -364,6 +361,7 @@ header {
     background-color: var(--clr-dark);
     color: var(--clr-light);
     text-align: center;
+    padding-block: 10;
 }
 
 .section__subtitle {
