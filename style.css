@@ -277,6 +277,10 @@ header {
     text-align: center;
 }
 
+.tech-list {
+    font-size: 25px;
+}
+
 .section__title--services {
     color: var(--clr-accent);
     position: relative;
