@@ -16,6 +16,6 @@ This is a personol portfolio page for myself. It was built with the intention of
 
 ### Link and Screenshot
 
-[Cristian Farias Portfolio Page](ttps://elated-fermi-223008.netlify.app/)
+[Cristian Farias Portfolio Page](https://elated-fermi-223008.netlify.app/)
 
 ![Screenshot](/assets/portfolioss.png)
